@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Langforia</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.2.2/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/jquery.qtip.css">
+    <style type="text/css">
+        body {
+        padding: 3em;
+        }
+        .entrycol {
+        width:auto;
+        display: inline-block;
+        vertical-align: top;
+        }
+
+        .floatright {
+        display:block;
+        float: right;
+        }
+
+        .leftmarg {
+        margin-left: 1em;
+        }
+
+        .bothmarg {
+        margin-left: 1em;
+        margin-right: 1em;
+        }
+
+        .expandable {
+        cursor: pointer;
+        }
+
+        .paragraph {
+        padding: 5pt;
+        }
+
+        .prop-table table {
+        border-collapse: collapse;
+        }
+
+        .prop-table td {
+        border: 1px solid #666666;
+        padding: 2pt;
+        }
+
+        .prop-table th {
+        border: 1px solid #666666;
+        padding: 2pt;
+        }
+
+        .prop-table tr {
+        border: 1px solid #666666;
+        }
+
+        .annotation-box {
+            /* border: 1px solid #7FA2FF;*/
+        }
+
+        .annotation-margin-line {
+            stroke-width: 0.5px;
+            stroke: gray;
+        }
+
+        .annotation-text {
+            font-size: 14pt;
+            font-family: Helvetica, Verdana, Arial, "sans-serif";
+        }
+
+        .annotation-edge-line {
+            stroke-width: 0.5px;
+            stroke: #000000;
+            fill: transparent;
+        }
+
+        .annotation-background {
+            opacity: 0.25;
+        }
+
+        .annotation-margin {
+            font-size: 10pt;
+            font-family: Helvetica, Verdana, Arial, "sans-serif";
+            fill: #808080;
+        }
+
+        .annotation-label {
+            font-size: 10pt;
+            font-family: Helvetica, Verdana, Arial, "sans-serif";
+        }
+
+        .annotation-curly {
+            fill: transparent;
+            stroke-width: 0.5px;
+        }
+
+        .qtip {
+            font-size: 10pt;
+            font-family: Helvetica, Verdana, Arial, "sans-serif";
+            max-width: 600px;
+        }
+    </style>
+    <script type="text/javascript">
+        var config_langs = [[&Configs]];
+        var config_friendly = [[&FriendlyNames]];
+    </script>
+</head>
+<body>
+<div id="commentpopup"></div>
+
+<div class="ui container">
+    <h1 class="ui aligned header">
+        <span id="page-title">Language pipelines</span>
+    </h1>
+
+    <div class="ui divider"></div>
+
+    <div id="nlpapp">
+
+    </div>
+</div>
+
+<script type="text/javascript" src="/webjars/jquery/2.2.4/jquery.min.js"></script>
+<script type="text/javascript" src="/webjars/jquery-ui/1.12.0/jquery-ui.min.js"></script>
+<script type="text/javascript" src="/webjars/Semantic-UI/2.2.2/semantic.min.js"></script>
+<script type="text/javascript" src="/webjars/Semantic-UI/2.2.2/components/tab.min.js"></script>
+<script type="text/javascript" src="/webjars/Semantic-UI/2.2.2/components/dropdown.min.js"></script>
+<script type="text/javascript" src="/webjars/he/0.5.0/he.js"></script>
+<script type="text/javascript" src="/js/jquery.qtip.js"></script>
+<script type="text/javascript" src="/js/require.js"></script>
+<script type="text/javascript" src="/js/classnames.js"></script>
+<script type="text/javascript" src="/js/director.min.js"></script>
+<script type="text/javascript">
+
+require.config({
+    paths: {
+        "react":     "/js/react-with-addons",
+        "react-dom": "/js/react-dom",
+        "app" : "/js/nlp/app.min",
+    },
+    waitSeconds: 15
+});
+
+require(["app"]);
+</script>
+
+</body>
+</html>

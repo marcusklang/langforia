@@ -1,0 +1,42 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "amd",
+        "moduleResolution": "node",
+        "isolatedModules": false,
+        "jsx": "react",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false,
+        "preserveConstEnums": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "outFile": "../app.js",
+        "inlineSourceMap": false,
+        "inlineSources": false
+    },
+    "filesGlob": [
+        "**/*.ts",
+        "**/*.tsx",
+        "../!node_modules/**"
+    ],
+    "files": [
+        "annotations.d.ts",
+        "annotations/componentmodel.ts",
+        "annotations/flowdocument.ts",
+        "annotations/util.ts",
+        "constants.ts",
+        "interfaces.d.ts",
+        "AnnotationView.tsx",
+        "app.tsx",
+        "DocumentFragment.tsx",
+        "DocumentView.tsx",
+        "MultipleSelectDropdown.tsx"
+    ],
+    "exclude": [],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

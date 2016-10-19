@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module org.jetbrains.idea.maven.project.MavenProjectsManager.isMavenModule="true" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/target/classes" />
+    <output-test url="file://$MODULE_DIR$/target/test-classes" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="kernel" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.5" level="project" />
+    <orderEntry type="module" module-name="maltparser" />
+    <orderEntry type="library" name="Maven: org.maltparser:maltparser:1.9.0" level="project" />
+    <orderEntry type="library" name="Maven: log4j:log4j:1.2.16" level="project" />
+    <orderEntry type="library" name="Maven: tw.edu.ntu.csie:libsvm:3.1" level="project" />
+    <orderEntry type="library" name="Maven: de.bwaldvogel:liblinear:1.8" level="project" />
+    <orderEntry type="module" module-name="espmalt" />
+    <orderEntry type="module" module-name="lucene" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:4.10.4" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:4.10.4" level="project" />
+    <orderEntry type="module" module-name="common" />
+    <orderEntry type="library" name="Maven: net.sf.trove4j:trove4j:3.0.3" level="project" />
+    <orderEntry type="module" module-name="stanford-corenlp" />
+    <orderEntry type="library" name="Maven: edu.stanford.nlp:stanford-corenlp:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: edu.stanford.nlp:stanford-corenlp:models:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: edu.stanford.nlp:stanford-corenlp:models-spanish:3.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.io7m.xom:xom:1.2.10" level="project" />
+    <orderEntry type="library" name="Maven: xml-apis:xml-apis:1.3.03" level="project" />
+    <orderEntry type="library" name="Maven: xerces:xercesImpl:2.8.0" level="project" />
+    <orderEntry type="library" name="Maven: xalan:xalan:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: joda-time:joda-time:2.1" level="project" />
+    <orderEntry type="library" name="Maven: de.jollyday:jollyday:0.4.7" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.2.7" level="project" />
+    <orderEntry type="library" name="Maven: com.googlecode.efficient-java-matrix-library:ejml:0.23" level="project" />
+    <orderEntry type="library" name="Maven: javax.json:javax.json-api:1.0" level="project" />
+    <orderEntry type="module" module-name="engmalt-linear" />
+    <orderEntry type="module" module-name="clearnlp" />
+    <orderEntry type="library" name="Maven: com.clearnlp:clearnlp:2.0.2" level="project" />
+    <orderEntry type="library" name="Maven: args4j:args4j:2.0.23" level="project" />
+    <orderEntry type="library" name="Maven: net.sourceforge.jregex:jregex:1.2_01" level="project" />
+    <orderEntry type="library" name="Maven: com.carrotsearch:hppc:0.5.2" level="project" />
+    <orderEntry type="library" name="Maven: com.clearnlp:clearnlp-dictionary:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.clearnlp:clearnlp-general-en-pos:1.1" level="project" />
+    <orderEntry type="library" name="Maven: com.clearnlp:clearnlp-general-en-dep:1.2" level="project" />
+    <orderEntry type="library" name="Maven: com.clearnlp:clearnlp-general-en-srl:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.slf4j:slf4j-simple:1.7.21" level="project" />
+    <orderEntry type="library" name="Maven: junit:junit:4.11" level="project" />
+    <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" name="Maven: se.lth.cs.nlp:docforia:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.3" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" level="project" />
+    <orderEntry type="library" name="Maven: it.unimi.dsi:fastutil:6.3" level="project" />
+    <orderEntry type="library" name="Maven: com.google.protobuf:protobuf-java:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: com.google.inject:guice:4.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
+    <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" name="Maven: com.google.guava:guava:16.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.reflections:reflections:0.9.9-RC1" level="project" />
+    <orderEntry type="library" name="Maven: org.javassist:javassist:3.16.1-GA" level="project" />
+    <orderEntry type="library" name="Maven: dom4j:dom4j:1.6.1" level="project" />
+  </component>
+</module>

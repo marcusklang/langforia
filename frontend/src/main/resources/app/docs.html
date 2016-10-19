@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Documentation</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/Semantic-UI/2.2.2/semantic.min.css">
+    <style type="text/css">
+        body {
+        padding: 3em;
+        }
+    </style>
+</head>
+<body>
+<div class="ui container">
+    <h1 class="ui aligned header">
+        <span id="page-title">API Documentation</span>
+    </h1>
+
+    <div class="ui divider"></div>
+
+    <p>The web api has the following URLs, all requests are done over the HTTP protocol.</p>
+
+    <div class="ui one column grid">
+        <div class="column">
+            <div class="ui raised segment">
+                <span class="ui blue ribbon label">GET</span>
+                <span><b>/languages</b></span>
+                <p>Returns a json array of available languages</p>
+                <span class="ui blue ribbon label">GET</span>
+                <span><b>/[language]/</b></span>
+                <p>Returns a json array of available configurations</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/[format]</b></span>
+                <p>This is the base point for pure text annotation.</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/json</b></span>
+                <p><b>Input:</b> Raw plain text encoded using utf-8 in the content body of the post.</p>
+                <p><b>Returns: </b> Annotated document in <a href="https://github.com/marcusklang/docforia">Docforia</a> JSON format.</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/binary</b></span>
+                <p><b>Input:</b> Raw plain text encoded using utf-8 in the content body of the post.</p>
+                <p><b>Returns:</b> Annotated document in <a href="https://github.com/marcusklang/docforia">Docforia</a> binary format.</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/annoviz</b></span>
+                <p>Internal API used by the visualizer</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/tsv</b></span>
+                <p><b>Input:</b> Raw plain text encoded using utf-8 in the content body of the post.</p>
+                <p><b>Returns:</b> CoNLL-like Tab Seperated Values file encoded using UTF-8</p>
+                <span class="ui yellow ribbon label">POST</span>
+                <span><b>/[language]/[configuration]/api/wikipedia/[format]</b></span>
+                <p>Same as the pure text variant except that the POST content body is expected to be Wikipedia HTML pages as retrieved using Wikipedia REST services.</p>
+                <p><b>Note:</b> The TSV format is not supported for Wikipedia due to the wealth of information.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
