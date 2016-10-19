@@ -61,12 +61,6 @@ public class SwedishLanguageModule extends LanguageModule {
                 DependencyGrammarParser.class,
                 CoarsePosTagConverter.class);
 
-        pipelineconfig.addPipeline("herd", "Stagger (tok, ssplit, pos, ner) + Maltparser + HERD",
-                TextSegmenter.class,
-                Stagger.Full.class,
-                DependencyGrammarParser.class,
-                CoarsePosTagConverter.class);
-
         bindPipeline(pipelineconfig);
     }
 
